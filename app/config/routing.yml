@@ -1,0 +1,8 @@
+app:
+    resource: '@AppBundle/Controller/DefaultController.php'
+    type: annotation
+
+member:
+    type:     rest
+    resource: AppBundle\Controller\MemberController
+

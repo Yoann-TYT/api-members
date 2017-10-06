@@ -1,0 +1,4 @@
+AppBundle\Entity\Member:
+    member_{1..10}:
+        firstName: <firstname()>
+        lastName: <lastname()>

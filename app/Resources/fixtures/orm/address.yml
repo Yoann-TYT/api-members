@@ -1,0 +1,6 @@
+AppBundle\Entity\Address:
+    address_{1..10}:
+        street: <streetName()>
+        city: <city()>
+        postalCode: <postcode()>
+        member: '@member_<numberBetween(1, 10)>'
